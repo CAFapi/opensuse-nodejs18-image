@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright 2022-2023 Open Text.
+    Copyright 2023 Open Text.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -22,15 +22,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.cafapi</groupId>
-    <artifactId>opensuse-nodejs16-image</artifactId>
+    <artifactId>opensuse-nodejs18-image</artifactId>
     <version>1.3.0-146</version>
     <packaging>pom</packaging>
 
-    <name>openSUSE NodeJS16 image</name>
-    <description>An openSUSE-based image which includes NodeJS version 16.</description>
-    <url>https://github.com/CAFapi/opensuse-nodejs16-image</url>
+    <name>openSUSE NodeJS18 image</name>
+    <description>An openSUSE-based image which includes NodeJS version 18.</description>
+    <url>https://github.com/CAFapi/opensuse-nodejs18-image</url>
 
-    <inceptionYear>2022</inceptionYear>
+    <inceptionYear>2023</inceptionYear>
 
     <parent>
         <groupId>com.github.cafapi</groupId>
@@ -60,6 +60,7 @@
 
     <properties>
         <copyrightYear>2023</copyrightYear>
+        <copyrightNotice>Copyright ${copyrightYear} Open Text.</copyrightNotice>
         <maven.install.skip>true</maven.install.skip>
         <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
         <dockerHubOrganization>cafapi</dockerHubOrganization>
@@ -94,7 +95,7 @@
                     <autoPull>always</autoPull>
                     <images>
                         <image>
-                            <name>${dockerCafImagePrefix}opensuse-nodejs16${dockerProjectVersion}</name>
+                            <name>${dockerCafImagePrefix}opensuse-nodejs18${dockerProjectVersion}</name>
                             <build>
                                 <dockerFileDir>.</dockerFileDir>
                                 <args>
@@ -113,9 +114,9 @@
     </build>
 
     <scm>
-        <connection>scm:git:https://github.com/CAFapi/opensuse-nodejs16-image.git</connection>
-        <developerConnection>scm:git:https://github.com/CAFapi/opensuse-nodejs16-image.git</developerConnection>
-        <url>https://github.com/CAFapi/opensuse-nodejs16-image</url>
+        <connection>scm:git:https://github.com/CAFapi/opensuse-nodejs18-image.git</connection>
+        <developerConnection>scm:git:https://github.com/CAFapi/opensuse-nodejs18-image.git</developerConnection>
+        <url>https://github.com/CAFapi/opensuse-nodejs18-image</url>
     </scm>
 
 </project>
