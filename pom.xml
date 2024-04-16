@@ -23,7 +23,7 @@
 
     <groupId>com.github.cafapi</groupId>
     <artifactId>opensuse-nodejs18-image</artifactId>
-    <version>1.3.1-SNAPSHOT</version>
+    <version>1.3.1-93</version>
     <packaging>pom</packaging>
 
     <name>openSUSE NodeJS18 image</name>
